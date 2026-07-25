@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+html,
+body{
+    overflow-x: hidden;
+}
+
 .toparea {
     background: #D5B455;
 }
@@ -106,155 +111,206 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: bold;
-    color:rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
     line-height: 30px;
-        
+
 }
 
-.welcomearea2{
-    padding-bottom:30px;
-    border-bottom:solid 1px black;
+.welcomearea2 {
+    padding-bottom: 30px;
+    border-bottom: solid 1px black;
 }
 
-.welcomearea2 img{
+.welcomearea2 img {
     width: 100%;
     border-radius: 20px;
 }
 
-.welcomearea2 p{
+.welcomearea2 p {
     font-size: 18px;
     line-height: 24px;
     text-align: justify;
 }
 
-.welcomearea2 p:first-child{
+.welcomearea2 p:first-child {
     font-weight: bold;
     line-height: 27px;
 }
 
-.segmentarea{
+.segmentarea {
     text-align: center;
     margin: 30px 0;
 }
 
-.segmentarea h2{
+.segmentarea h2 {
     font-family: monospace;
     font-size: 35px;
-    color:rgb(33, 37, 41);
+    color: rgb(33, 37, 41);
     margin: 0;
-    text-shadow: -1px 6px 9px rgba(0,0,0,0.6);
+    text-shadow: -1px 6px 9px rgba(0, 0, 0, 0.6);
     margin-bottom: 15px;
 }
 
-.segmentarea img{
+.segmentarea img {
     margin-bottom: 30px;
 }
-.segmentarea2{
+
+.segmentarea2 {
     background: url('bg2.webp');
     background-attachment: fixed;
     background-size: cover;
-    padding:100px 0;
+    padding: 100px 0;
 }
 
-.box1{
-	border-radius: 15px;
-	background-color: rgb(196, 9, 9);
-	opacity: 90%;
+.box1 {
+    border-radius: 15px;
+    background-color: rgb(196, 9, 9);
+    opacity: 90%;
     padding: 15px;
     height: 250px;
     margin-bottom: 15px;
 
 }
 
-.box1 h3{
-	color: white;
+.box1 h3 {
+    color: white;
     font-size: 20px;
-	border-bottom: dotted white 1px;
+    border-bottom: dotted white 1px;
 
 }
 
-.box1 p{
-	color: white;
-	text-align: justify;
-    line-height:25px;
+.box1 p {
+    color: white;
+    text-align: justify;
+    line-height: 25px;
     overflow: hidden;
 }
 
-.box2{
-	border-radius: 15px;
-	background-color: #0189a7;
-	opacity: 90%;
+.box2 {
+    border-radius: 15px;
+    background-color: #0189a7;
+    opacity: 90%;
     padding: 15px;
     height: 250px;
     margin-bottom: 15px;
 
 }
 
-.box2 h3{
-	color: white;
+.box2 h3 {
+    color: white;
     font-size: 20px;
     font-weight: bold;
-	border-bottom: dotted white 1px;
+    border-bottom: dotted white 1px;
 
 }
 
-.box2 p{
-	color: white;
-	text-align: justify;
-    line-height:25px;
+.box2 p {
+    color: white;
+    text-align: justify;
+    line-height: 25px;
     overflow: hidden;
 }
 
-.box3{
-	border-radius: 15px;
-	background-color: #D95421;
-	opacity: 90%;
+.box3 {
+    border-radius: 15px;
+    background-color: #D95421;
+    opacity: 90%;
     padding: 15px;
     height: 250px;
     margin-bottom: 15px;
 }
 
-.box3 h3{
-	color: white;
+.box3 h3 {
+    color: white;
     font-size: 20px;
     margin: 0;
-	border-bottom: dotted white 1px;
+    border-bottom: dotted white 1px;
 
 }
 
-.box3 p{
-	color: white;
-	text-align: justify;
-    line-height:25px;
+.box3 p {
+    color: white;
+    text-align: justify;
+    line-height: 25px;
     overflow: hidden;
 }
 
-.weddingarea{
+.weddingarea {
     text-align: center;
     margin: 30px 0;
 }
 
-.weddingarea h2{
+.weddingarea h2 {
     font-family: monospace;
     font-size: 35px;
-    color:rgb(33, 37, 41);
+    color: rgb(33, 37, 41);
     margin: 0;
-    text-shadow: -1px 6px 9px rgba(0,0,0,0.6);
+    text-shadow: -1px 6px 9px rgba(0, 0, 0, 0.6);
     margin-bottom: 15px;
 }
 
-.weddingarea img{
+.weddingarea img {
     margin-bottom: 30px;
 }
 
-.weddingarea2 img{
+.weddingarea2 img {
     width: 100%;
 }
 
+.planarea {
+    margin: 50px 0;
+}
+
+.planarea1 img {
+    width: 100%;
+    border-radius: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.planarea2 {
+    margin: 100px 0;
+    border: solid 3px #d5b455; 
+    text-align: center;
+    border:solid 3px #d5b455;
+    padding-bottom: 30px;
+
+}
+
+.planarea2 h2 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.planarea2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.planarea2 img{
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.planarea2 a:link,.planarea2 a:visited{
+    text-align: center;
+    text-decoration: none;	
+    border-radius: 20px;
+	color: white;
+    padding: 10px 25px;
+	background: #800000;
+}
+
+
 
 @media screen and (max-width:768px) {
-    .box1,.box2,.box3{
+
+    .box1,
+    .box2,
+    .box3 {
         height: 375px;
     }
 }
-
