@@ -138,10 +138,12 @@ body{
 }
 
 .segmentarea {
-    text-align: center;
     margin: 30px 0;
 }
 
+.segmentlogo{
+    text-align: center;
+}
 .segmentarea h2 {
     font-family: monospace;
     font-size: 35px;
