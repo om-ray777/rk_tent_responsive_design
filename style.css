@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toparea {
+    background: #D5B455;
+}
+
+.toparea1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.toparea1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.toparea2 button {
+    background: #800000;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 10px;
+}
+
+.toparea2 button:hover {
+    background-color: #D5B455;
+    color: #800000;
+    border: none;
+}
+
+.logoarea {
+    background: black;
+    text-align: center;
+}
+
+.logoarea img {
+    width: 65%;
+    border-radius: 100%;
+}
+
+.logowithtext {
+    color: #D5B455;
+}
+
+.logowithtext h3 {
+    padding-top: 20px;
+
+}
+
+
+.navbar {
+    background-color: #000 !important;
+}
+
+.navbar .nav-link {
+    color: #D5B455 !important;
+    margin: 0 !important;
+}
+
+.navbar .nav-link:hover {
+    background-color: #D5B455 !important;
+    /* Hover pe golden */
+    color: black !important;
+}
+
+.navbar .dropdown-toggle {
+    color: #D5B455 !important;
+}
+
+.navbar .dropdown-menu {
+    background-color: #D5B455;
+}
+
+.navbar .dropdown-item {
+    background: black;
+    color: #fff;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #D5B455;
+    color: black;
+}
+
+.welcomearea1 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.welcometext1 h1 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #D5B455;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.welcometext2 p {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(128, 128, 128);
+    line-height: 30px;
+        
+}
+
+.welcomearea2{
+    padding-bottom:30px;
+    border-bottom:solid 1px black;
+}
+
+.welcomearea2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.welcomearea2 p{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.welcomearea2 p:first-child{
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.segmentarea{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.segmentarea h2{
+    font-family: monospace;
+    font-size: 35px;
+    color:rgb(33, 37, 41);
+    margin: 0;
+    text-shadow: -1px 6px 9px rgba(0,0,0,0.6);
+    margin-bottom: 15px;
+}
+
+.segmentarea img{
+    margin-bottom: 30px;
+}
+.segmentarea2{
+    background: url('bg2.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    padding:100px 0;
+}
+
+.box1{
+	border-radius: 15px;
+	background-color: rgb(196, 9, 9);
+	opacity: 90%;
+    padding: 15px;
+    height: 250px;
+    margin-bottom: 15px;
+
+}
+
+.box1 h3{
+	color: white;
+    font-size: 20px;
+	border-bottom: dotted white 1px;
+
+}
+
+.box1 p{
+	color: white;
+	text-align: justify;
+    line-height:25px;
+    overflow: hidden;
+}
+
+.box2{
+	border-radius: 15px;
+	background-color: #0189a7;
+	opacity: 90%;
+    padding: 15px;
+    height: 250px;
+    margin-bottom: 15px;
+
+}
+
+.box2 h3{
+	color: white;
+    font-size: 20px;
+    font-weight: bold;
+	border-bottom: dotted white 1px;
+
+}
+
+.box2 p{
+	color: white;
+	text-align: justify;
+    line-height:25px;
+    overflow: hidden;
+}
+
+.box3{
+	border-radius: 15px;
+	background-color: #D95421;
+	opacity: 90%;
+    padding: 15px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.box3 h3{
+	color: white;
+    font-size: 20px;
+    margin: 0;
+	border-bottom: dotted white 1px;
+
+}
+
+.box3 p{
+	color: white;
+	text-align: justify;
+    line-height:25px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px) {
+    .box1,.box2,.box3{
+        height: 375px;
+    }
+}
+
