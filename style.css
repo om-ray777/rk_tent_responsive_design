@@ -4,7 +4,7 @@ body {
 }
 
 html,
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -58,6 +58,7 @@ body{
 
 .navbar {
     background-color: #000 !important;
+    padding-top: 30px !important;
 }
 
 .navbar .nav-link {
@@ -69,10 +70,7 @@ body{
     background-color: #D5B455 !important;
     /* Hover pe golden */
     color: black !important;
-}
-
-.navbar .dropdown-toggle {
-    color: #D5B455 !important;
+    border-radius: 10px !important;
 }
 
 .navbar .dropdown-menu {
@@ -87,6 +85,7 @@ body{
 .navbar .dropdown-item:hover {
     background-color: #D5B455;
     color: black;
+    border-radius: 10px;
 }
 
 .welcomearea1 {
@@ -141,9 +140,10 @@ body{
     margin: 30px 0;
 }
 
-.segmentlogo{
+.segmentlogo {
     text-align: center;
 }
+
 .segmentarea h2 {
     font-family: monospace;
     font-size: 35px;
@@ -242,7 +242,7 @@ body{
     margin: 30px 0;
 }
 
-.weddingarea h2 {
+.weddingarea h3 {
     font-family: monospace;
     font-size: 35px;
     color: rgb(33, 37, 41);
@@ -263,11 +263,11 @@ body{
     margin: 50px 0;
 }
 
-.planimage img{
+.planimage img {
     width: 100%;
-    border-radius:100%;
-    height:300px;
-    margin-bottom:20px;
+    border-radius: 100%;
+    height: 300px;
+    margin-bottom: 20px;
 }
 
 .planarea1 img {
@@ -277,11 +277,12 @@ body{
     margin-bottom: 20px;
 }
 
+
 .planarea2 {
-    margin: 100px 0;
-    border: solid 3px #d5b455; 
+    padding: 50px 0;
+    border: solid 3px #d5b455;
     text-align: center;
-    border:solid 3px #d5b455;
+    border: solid 3px #d5b455;
     padding-bottom: 30px;
 
 }
@@ -293,24 +294,274 @@ body{
     margin: 20px 0;
 }
 
-.planarea2 p{
+.planarea2 p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-.planarea2 img{
+.planarea2 img {
     width: 100%;
+    border-radius: 0%;
     margin-bottom: 22px;
 }
 
-.planarea2 a:link,.planarea2 a:visited{
+.planarea2 a:link,
+.planarea2 a:visited {
     text-align: center;
-    text-decoration: none;	
+    text-decoration: none;
     border-radius: 20px;
-	color: white;
+    color: white;
     padding: 10px 25px;
-	background: #800000;
+    background: #800000;
+}
+
+.btn a:hover {
+    background: #E1D0A1;
+    color: black;
+}
+
+
+
+.venue-area {
+    background: #ECECEC;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.venue-area a:link,
+.venue-area a:visited {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px;
+    background: #800000;
+}
+
+.buttn {
+    margin: 50px 0;
+}
+
+.buttn a:hover {
+    background: #E1D0A1;
+    color: black;
+
+}
+
+.venue-card {
+    justify-content: center;
+}
+
+.venue-card-box {
+    background: #fff;
+    height: 370px;
+    text-align: center;
+    border: white solid 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+.venue-card-box img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+
+.venue-card h3 {
+    padding: 10px 0;
+}
+
+.button a:hover {
+    background: #E1D0A1;
+    color: black;
+
+}
+
+.corporate-area {
+    padding: 50px 0 30px 0;
+}
+
+.text-logo {
+    text-align: center;
+}
+
+.text-logo h2 {
+    font-family: monospace;
+    font-size: 35px;
+    color: rgb(33, 37, 41);
+    margin: 0;
+    text-shadow: -1px 6px 9px rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
+}
+
+.text-logo img {
+    margin-bottom: 30px;
+}
+
+.offer-area {
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+
+.corporate-red {
+    background: url(redbackground.webp);
+    padding: 10px 0;
+    color: white;
+    border-radius: 20px;
+}
+
+.offer-box p {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: dotted white 2px;
+}
+
+.offer-box ul {
+    list-style: none;
+}
+
+.offer-box ul li {
+    margin-bottom: 15px;
+}
+
+.offer-box ul li .fa {
+    padding: 2px 7px;
+    border-radius: 50%;
+    background-color: #670002;
+}
+
+.specialarea {
+    background: url('footerbg.webp');
+    padding: 50px 0;
+}
+
+.firstrow {
+    justify-content: center;
+}
+
+.boxes {
+    border: dotted rgba(255, 255, 255, 0.37) 1px;
+    background: rgba(255, 255, 255, 0.11);
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.boxes:hover {
+    background: none;
+}
+
+
+.boxes h3 {
+    margin: 0 auto;
+    padding: 7px 0 7px 0px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1px;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.boxes p {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+.footerarea {
+    background: black;
+    padding: 30px 0;
+}
+
+.footer_details_head h2 {
+    font-size: 25px;
+    color: #D5B455;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer_about_us_text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.footer_address_box {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+
+
+.footer_address_box p a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_address_box b {
+    color: #D5B455;
+    font-size: 25px;
+
+}
+
+.footer_address_box p:hover {
+    color: #D5B455;
+}
+
+.footer_address_box p a:hover {
+    color: #D5B455;
+}
+
+.footer_address_box h2 {
+    color: #D5B455;
+}
+
+.footer_box_list ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.footer_box_list ul li {
+    color: white;
+    padding-bottom: 10px;
+    transition: all 1s;
+}
+
+.footer_box_list ul li:hover {
+    color: #D5B455;
+    transform: translate(10px, 0);
+
+}
+
+.footer_box_list ul li:first-child {
+    padding-top: 20px;
+}
+
+.footer_box_list ul i {
+    color: #D5B455;
+}
+
+
+.footer_last_box {
+    background: #2B2626;
+}
+
+.footer_developer_name_box {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -321,5 +572,9 @@ body{
     .box2,
     .box3 {
         height: 375px;
+    }
+
+    .corporate-red {
+        margin-bottom: 20px;
     }
 }
