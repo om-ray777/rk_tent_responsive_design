@@ -55,38 +55,21 @@ body {
 
 }
 
-
-.navbar {
-    background-color: #000 !important;
-    padding-top: 30px !important;
+.navbar1 {
+    padding: 20px 0;
 }
 
-.navbar .nav-link {
-    color: #D5B455 !important;
-    margin: 0 !important;
+.navbar-toggler-icon {
+    background: green;
+    padding: 20px 25px;
+    border-radius: 5px;
 }
 
-.navbar .nav-link:hover {
-    background-color: #D5B455 !important;
-    /* Hover pe golden */
-    color: black !important;
-    border-radius: 10px !important;
+.navbar1 a {
+    color: #D5B455;
 }
 
-.navbar .dropdown-menu {
-    background-color: #D5B455;
-}
 
-.navbar .dropdown-item {
-    background: black;
-    color: #fff;
-}
-
-.navbar .dropdown-item:hover {
-    background-color: #D5B455;
-    color: black;
-    border-radius: 10px;
-}
 
 .welcomearea1 {
     margin: 50px 0;
